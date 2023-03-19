@@ -23,6 +23,7 @@ void BindYOLOv7Face(pybind11::module& m);
 void BindCenterFace(pybind11::module& m);
 void BindBlazeFace(pybind11::module& m);
 void BindSCRFD(pybind11::module& m);
+void BindZllv0Face(pybind11::module& m);
 
 void BindFaceDet(pybind11::module& m) {
   auto facedet_module = m.def_submodule("facedet", "Face detection models.");
@@ -33,5 +34,6 @@ void BindFaceDet(pybind11::module& m) {
   BindCenterFace(facedet_module);
   BindBlazeFace(facedet_module);
   BindSCRFD(facedet_module);
+  BindZllv0Face(facedet_module);
 }
 }  // namespace fastdeploy

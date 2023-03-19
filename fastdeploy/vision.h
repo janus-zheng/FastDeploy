@@ -60,6 +60,7 @@
 #include "fastdeploy/vision/sr/ppsr/model.h"
 #include "fastdeploy/vision/tracking/pptracking/model.h"
 #include "fastdeploy/vision/generation/contrib/animegan.h"
+#include "fastdeploy/vision/facedet/contrib/zllv0face/zllv0face.h"
 
 #endif
 
