@@ -20,3 +20,4 @@ from .contrib.blazeface import *
 from .contrib.retinaface import RetinaFace
 from .contrib.scrfd import SCRFD
 from .contrib.ultraface import UltraFace
+from .contrib.zllv0face import *
